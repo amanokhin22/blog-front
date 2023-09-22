@@ -12,7 +12,6 @@ import {PostSkeleton} from './Skeleton';
 import {Link} from "react-router-dom";
 import {useDispatch} from "react-redux";
 import {fetchRemovePost} from "../../redux/slices/posts";
-import {logout} from "../../redux/slices/auth";
 
 export const Post = ({
                          id,
